@@ -7,14 +7,14 @@
     android:text="Settings">
 
     <Button
-    android:id="@+id/Alarms"
+    android:id="@+id/ShowAlarmsButton"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="Alarms"
     android:onClick=""/>
     
     <Button
-    android:id="@+id/AdvancedSettings"
+    android:id="@+id/ShowAdvancedSettingsButton"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="Advanced Settings"

@@ -29,6 +29,12 @@
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         
+        <activity
+            android:name=".SettingAlarmsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Alarms"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
     </application>
 
 </manifest>

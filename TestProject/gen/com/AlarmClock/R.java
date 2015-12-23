@@ -25,8 +25,9 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int AdvancedSettings=0x7f060005;
-        public static final int Alarms=0x7f060004;
+        public static final int AddAlarm=0x7f060004;
+        public static final int ShowAdvancedSettingsButton=0x7f060006;
+        public static final int ShowAlarmsButton=0x7f060005;
         public static final int analogClock1=0x7f060000;
         public static final int button_info=0x7f060003;
         public static final int button_setting=0x7f060002;
@@ -34,7 +35,8 @@ public final class R {
     }
     public static final class layout {
         public static final int home_screen=0x7f030000;
-        public static final int settings_screen=0x7f030001;
+        public static final int settingalarms_screen=0x7f030001;
+        public static final int settings_screen=0x7f030002;
     }
     public static final class string {
         public static final int action_settings=0x7f050002;
