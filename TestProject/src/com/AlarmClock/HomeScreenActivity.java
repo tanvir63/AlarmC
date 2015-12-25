@@ -1,5 +1,8 @@
 package com.AlarmClock;
 
+import com.DataBase.DataBaseHelper;
+import com.DataBase.DatabaseAccessor;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -21,10 +24,25 @@ public class HomeScreenActivity extends Activity {
 				startActivity(intent);
 		    }
 		});
+
+		try {
+			DataBaseHelper.manageDatabase(this);
+			DatabaseAccessor.initDB(this);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	@Override
 	protected void onPostCreate(Bundle savedInstanceState) {
 		super.onPostCreate(savedInstanceState);
+	}
+	
+	@Override
+	protected void onDestroy() {
+		// TODO Auto-generated method stub
+		super.onDestroy();
+		DatabaseAccessor.closeDB();
 	}
 }
