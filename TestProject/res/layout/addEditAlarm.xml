@@ -1,0 +1,248 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF" >
+
+    <RelativeLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/titleView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Create Alarm"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/titleLayout" >
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:text="Please fill (*) marked fields"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:gravity="right"
+                        android:text="Name :"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/nameEdit"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Name"
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="textCapWords"
+                        android:singleLine="true"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="*"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:gravity="right"
+                        android:text="Client Code :"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/codeEdit"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Code"
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="textCapCharacters"
+                        android:singleLine="true"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="*"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:gravity="right"
+                        android:text="Address :"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/addressEdit"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Address"
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="textCapSentences"
+                        android:singleLine="true"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="*"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:gravity="right"
+                        android:text="Contact Name :"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/contactEdit"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Contact Name"
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="textCapWords"
+                        android:singleLine="true"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="*"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:gravity="right"
+                        android:text="Tel :"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/telEdit"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Telephone"
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="phone"
+                        android:singleLine="true"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:gravity="right"
+                        android:text="Mobile :"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/mobileEdit"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Mobile"
+                        android:imeOptions="flagNoExtractUi"
+                        android:inputType="phone"
+                        android:singleLine="true"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/saveButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Save"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

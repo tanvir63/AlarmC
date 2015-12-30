@@ -2,6 +2,9 @@ package com.DataBase;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import com.DomainModel.TestClass;
+
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -34,16 +37,18 @@ public class DatabaseAccessor {
 		}
 	}
 
-	public static List<String> getTestList() {
-		List<String> ret = null;
+	public static List<TestClass> getTestList() {
+		List<TestClass> ret = null;
 		try {
 			String[] selections = null;
 			String qry = "select time1,note1 from test";
 			Cursor cursor = rdb.rawQuery(qry, selections);
-			ret = new ArrayList<String>();
+			ret = new ArrayList<TestClass>();
 			while (cursor.moveToNext()) {
-				String item = cursor.getString(0);
-				ret.add(item);
+				TestClass testClass=new TestClass();
+				testClass.time= cursor.getString(0);
+				testClass.note= cursor.getString(1);
+				ret.add(testClass);
 			}
 			cursor.close();
 		} catch (Exception e) {

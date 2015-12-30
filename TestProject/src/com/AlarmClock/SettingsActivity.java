@@ -13,6 +13,8 @@ public class SettingsActivity extends Activity {
 		try {
 			super.onCreate(savedInstanceState);
 			setContentView(R.layout.settings_screen);
+			
+			
 			showAlarmsButton = (Button) findViewById(R.id.ShowAlarmsButton);
 			showAlarmsButton.setOnClickListener(new View.OnClickListener() {
 			    @Override
