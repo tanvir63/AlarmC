@@ -2,12 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.alarmclock.SettingsActivity"
+    tools:context="com.AlarmClock.SettingsActivity"
     android:orientation="vertical"  
     android:text="Settings">
 
     <Button
-    android:id="@+id/ShowAlarmsButton"
+    android:id="@+id/AddAlarmsButton"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="Alarms"

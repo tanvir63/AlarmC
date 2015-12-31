@@ -9,6 +9,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.graphics.BitmapFactory;
@@ -26,6 +27,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class SettingAlarmsActivity extends Activity {
+	private Button addAlarmButton;
 	private Activity context;
 	private List<TestClass> items;
 	private ListViewAdapter adapter;
@@ -35,7 +37,15 @@ public class SettingAlarmsActivity extends Activity {
 		try {
 			super.onCreate(savedInstanceState);
 			setContentView(R.layout.settingalarms_screen);
-			List<TestClass> tests=DatabaseAccessor.getTestList();
+			addAlarmButton = (Button) findViewById(R.id.AddAlarmsButton);
+			addAlarmButton.setOnClickListener(new View.OnClickListener() {
+			    @Override
+				public void onClick(View v) {
+			    	Intent intent = new Intent(SettingAlarmsActivity.this, AlarmCreateEditActivity.class);
+					startActivity(intent);
+			    }
+			});
+			//List<TestClass> tests=DatabaseAccessor.getTestList();
 //			context = this;
 //
 //			items = new ArrayList<TestClass>();

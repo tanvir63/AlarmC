@@ -25,26 +25,19 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int AddAlarm=0x7f06000d;
-        public static final int ShowAdvancedSettingsButton=0x7f06000f;
-        public static final int ShowAlarmsButton=0x7f06000e;
-        public static final int addressEdit=0x7f060008;
-        public static final int analogClock1=0x7f060000;
-        public static final int button_info=0x7f060003;
-        public static final int button_setting=0x7f060002;
-        public static final int codeEdit=0x7f060007;
-        public static final int contactEdit=0x7f060009;
-        public static final int digitalClock1=0x7f060001;
-        public static final int mobileEdit=0x7f06000b;
-        public static final int nameEdit=0x7f060006;
-        public static final int saveButton=0x7f06000c;
-        public static final int telEdit=0x7f06000a;
-        public static final int titleLayout=0x7f060004;
-        public static final int titleView=0x7f060005;
+        public static final int AddAlarm=0x7f060006;
+        public static final int AddAlarmsButton=0x7f060007;
+        public static final int ShowAdvancedSettingsButton=0x7f060008;
+        public static final int analogClock1=0x7f060002;
+        public static final int button_info=0x7f060005;
+        public static final int button_setting=0x7f060004;
+        public static final int digitalClock1=0x7f060003;
+        public static final int titleLayout=0x7f060000;
+        public static final int titleView=0x7f060001;
     }
     public static final class layout {
-        public static final int home_screen=0x7f030000;
-        public static final int layout_client_create_edit=0x7f030001;
+        public static final int addeditalarm=0x7f030000;
+        public static final int home_screen=0x7f030001;
         public static final int settingalarms_screen=0x7f030002;
         public static final int settings_screen=0x7f030003;
     }
