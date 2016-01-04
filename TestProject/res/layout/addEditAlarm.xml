@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#FFFFFF" >
+    android:background="#FFFFFF"
+    tools:context="com.AlarmClock.AlarmCreateEditActivity" >
 
     <RelativeLayout
         android:id="@+id/titleLayout"
@@ -22,5 +23,69 @@
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/alarmtimePickerLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleLayout"
+        android:background="#000000"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <TimePicker
+            android:id="@+id/alarmTimePicker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/isActiveLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alarmtimePickerLayout"
+        android:background="#000000"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <CheckBox
+            android:id="@+id/isActive"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/isActive" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/alarmRepeatLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:paddingBottom="5dp"
+        android:layout_below="@id/isActiveLayout"
+        android:paddingTop="5dp" >
+
+        <Button
+            android:id="@+id/buttonAlarmRepeatDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Repeat Options" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/listRingTonesLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:paddingBottom="5dp"
+        android:layout_below="@id/alarmRepeatLayout"
+        android:paddingTop="5dp" >
+
+        <Button
+            android:id="@+id/buttonShowRingTonesDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ring Tones" />
     </RelativeLayout>
 </RelativeLayout>

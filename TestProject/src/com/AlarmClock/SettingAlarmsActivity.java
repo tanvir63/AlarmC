@@ -37,7 +37,9 @@ public class SettingAlarmsActivity extends Activity {
 		try {
 			super.onCreate(savedInstanceState);
 			setContentView(R.layout.settingalarms_screen);
-			addAlarmButton = (Button) findViewById(R.id.AddAlarmsButton);
+			
+			
+			addAlarmButton = (Button) findViewById(R.id.AddAlarm);
 			addAlarmButton.setOnClickListener(new View.OnClickListener() {
 			    @Override
 				public void onClick(View v) {

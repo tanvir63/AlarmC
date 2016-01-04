@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="11"
         android:targetSdkVersion="15" />
 
     <application
@@ -35,6 +35,12 @@
             android:label="Alarms"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
+        <activity
+            android:name=".AlarmCreateEditActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Add Alarms"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+</activity> 
     </application>
 
 </manifest>

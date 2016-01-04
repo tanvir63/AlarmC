@@ -14,8 +14,7 @@ public class SettingsActivity extends Activity {
 			super.onCreate(savedInstanceState);
 			setContentView(R.layout.settings_screen);
 			
-			
-			showAlarmsButton = (Button) findViewById(R.id.AddAlarmsButton);
+			showAlarmsButton = (Button) findViewById(R.id.Alarms);
 			showAlarmsButton.setOnClickListener(new View.OnClickListener() {
 			    @Override
 				public void onClick(View v) {

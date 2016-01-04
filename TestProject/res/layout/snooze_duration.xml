@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+        <RadioGroup
+            android:id="@+id/snoozeDurationGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/SnoozeDuration1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/SnoozeDuration1" />
+            <RadioButton
+                android:id="@+id/SnoozeDuration2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SnoozeDuration2" />
+            <RadioButton
+                android:id="@+id/SnoozeDuration3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SnoozeDuration3" />
+            <RadioButton
+                android:id="@+id/SnoozeDuration4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SnoozeDuration4" />
+            <RadioButton
+                android:id="@+id/SnoozeDuration5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SnoozeDuration5" />
+            <RadioButton
+                android:id="@+id/SnoozeDuration6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SnoozeDuration6" />
+            <RadioButton
+                android:id="@+id/SnoozeDuration7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SnoozeDuration7" />
+        </RadioGroup>
+</RelativeLayout>
