@@ -40,7 +40,13 @@
             android:configChanges="orientation|keyboardHidden"
             android:label="Add Alarms"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
-</activity> 
+        </activity> 
+        <activity
+            android:name=".AdvancedSettingsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Advanced Settings"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+		</activity> 
     </application>
 
 </manifest>

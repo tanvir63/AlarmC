@@ -42,7 +42,7 @@ public class AlarmCreateEditActivity extends Activity implements
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.addeditalarm);
+		setContentView(R.layout.add_edit_alarm);
 		titleView = (TextView) findViewById(R.id.titleView);
 		// alarm = new Alarm();
 		titleView.setText("Create New Alarm");
@@ -80,7 +80,7 @@ public class AlarmCreateEditActivity extends Activity implements
 
 				// custom dialog
 				final Dialog dialog = new Dialog(context);
-				dialog.setContentView(R.layout.repeat_alarm);
+				dialog.setContentView(R.layout.repeat_alarm_options);
 				dialog.setTitle("Repeat Options");
 
 				radioGroup = (RadioGroup) findViewById(R.id.repeatOptionGroup);

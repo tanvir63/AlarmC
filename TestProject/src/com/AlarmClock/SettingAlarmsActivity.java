@@ -36,7 +36,7 @@ public class SettingAlarmsActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		try {
 			super.onCreate(savedInstanceState);
-			setContentView(R.layout.settingalarms_screen);
+			setContentView(R.layout.setting_alarms_screen);
 			
 			
 			addAlarmButton = (Button) findViewById(R.id.AddAlarm);

@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    tools:context="com.AlarmClock.AdvancedSettingsActivity" >
+
+    <RelativeLayout
+        android:id="@+id/isFlashLightOnLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <CheckBox
+            android:id="@+id/isFlashLightOnCheckBox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Flash Light" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/showAlarmNotificationLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:layout_below="@id/isFlashLightOnLayout"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <CheckBox
+            android:id="@+id/showAlarmNotificationCheckBox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Show Alarm Notification" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/autoSnoozeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showAlarmNotificationLayout"
+        android:background="#000000"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <CheckBox
+            android:id="@+id/autoSnoozeLayoutCheckBox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Auto Snooze" />
+    </RelativeLayout>
+</RelativeLayout>
