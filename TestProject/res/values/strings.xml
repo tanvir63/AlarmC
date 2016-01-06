@@ -9,7 +9,7 @@
 	<string name="isActive">Active</string>
 	<string name="never">Never</string>
     <string name="always">Always</string>
-    <string name="date_range">Date Range</string>
+    <string name="other">Other Options</string>
     <string name="Music1">Music 1</string>
     <string name="Music2">Music 2</string>
     <string name="Music3">Music 3</string>
@@ -27,4 +27,14 @@
     <string name="SnoozeDuration5">25 minutes</string>
     <string name="SnoozeDuration6">30 minutes</string>
     <string name="SnoozeDuration7">Never</string>
+    
+    <string name="AlarmStartDate">Start</string>
+    <string name="AlarmEndDate">End</string>
+    <string name="IsMondayAlarmOn">Monday</string>
+    <string name="IsTuesdayAlarmOn">Tuesday</string>
+    <string name="IsWesnesdayAlarmOn">Wednesday</string>
+    <string name="IsThursdayAlarmOn">Thursday</string>
+    <string name="IsFridayAlarmOn">Friday</string>
+    <string name="IsSaturdayAlarmOn">Satday</string>
+    <string name="IsSundayAlarmOn">Sunday</string>
 </resources>

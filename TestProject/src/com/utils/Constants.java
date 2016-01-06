@@ -10,4 +10,13 @@ public class Constants {
 	public static final String FLASH_LIGHT = "Flash_Light";
 	public static final String SHOW_ALARM_NOTIFICATION = "ShowAlarmNotification";
 	public static final String IS_AUTO_SNOOZE_ON = "AutoSnooze";
+	
+	public static final String IS_MONDAY_ALARM_ON = "isMondayAlarmOn";
+	public static final String IS_TUESDAY_ALARM_ON = "isTuesdayAlarmOn";
+	public static final String IS_WEDNESDAY_ALARM_ON = "isWednesdayAlarmOn";
+	public static final String IS_THURSDAY_ALARM_ON = "isThursdayAlarmOn";
+	public static final String IS_FRIDAY_ALARM_ON = "isFridayAlarmOn";
+	public static final String IS_SATURDAY_ALARM_ON = "isSaturdayAlarmOn";
+	public static final String IS_SUNDAY_ALARM_ON = "isSundayAlarmOn";
+	
 }

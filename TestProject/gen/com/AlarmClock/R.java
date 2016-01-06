@@ -79,12 +79,22 @@ public final class R {
         public static final int advanced_settings=0x7f030001;
         public static final int home_screen=0x7f030002;
         public static final int list_of_musics=0x7f030003;
-        public static final int repeat_alarm_options=0x7f030004;
-        public static final int setting_alarms_screen=0x7f030005;
-        public static final int settings_screen=0x7f030006;
-        public static final int snooze_duration=0x7f030007;
+        public static final int other_alarm_options=0x7f030004;
+        public static final int repeat_alarm_options=0x7f030005;
+        public static final int setting_alarms_screen=0x7f030006;
+        public static final int settings_screen=0x7f030007;
+        public static final int snooze_duration=0x7f030008;
     }
     public static final class string {
+        public static final int AlarmEndDate=0x7f05001b;
+        public static final int AlarmStartDate=0x7f05001a;
+        public static final int IsFridayAlarmOn=0x7f050020;
+        public static final int IsMondayAlarmOn=0x7f05001c;
+        public static final int IsSaturdayAlarmOn=0x7f050021;
+        public static final int IsSundayAlarmOn=0x7f050022;
+        public static final int IsThursdayAlarmOn=0x7f05001f;
+        public static final int IsTuesdayAlarmOn=0x7f05001d;
+        public static final int IsWesnesdayAlarmOn=0x7f05001e;
         public static final int Music1=0x7f05000a;
         public static final int Music2=0x7f05000b;
         public static final int Music3=0x7f05000c;
@@ -106,10 +116,10 @@ public final class R {
         public static final int app_name=0x7f050000;
         public static final int button_info=0x7f050004;
         public static final int button_setting=0x7f050003;
-        public static final int date_range=0x7f050009;
         public static final int hello_world=0x7f050001;
         public static final int isActive=0x7f050006;
         public static final int never=0x7f050007;
+        public static final int other=0x7f050009;
         public static final int pick_time=0x7f050005;
     }
 }
